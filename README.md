@@ -1,46 +1,67 @@
-# Getting Started with Create React App
+<p align="center">
+   <img src="./.github/logo.svg" alt="Move It" width="300"/>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<p align="center">
+   Finance App.
+</p>
 
-In the project directory, you can run:
+<div align="center">
+  <sub> 
+    <a href="https://github.com/srosajazz">Sergio Rosa.
+  </sub>
+</div>
 
-### `yarn start`
+# 📌 Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* [Screenshots](#camera-screenshot) 
+* [Technologies](#rocket-technologies) 
+* [How to Run](#computer-how-to-run)
+* [Issues](#bug-issues)
+* [Contributing](#sparkles-issues)
+* [License](#page_facing_up-license)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# :camera: Screenshots
+<div align="center">
+   <img src="./.github/screen1.png" width="400px">
+   <img src="./.github/screen2.png" width="400px">
+   <img src="./.github/screen3.png" width="400px">
+   <img src="./.github/screen4.png" width="400px">
+</div>
 
-### `yarn test`
+# :rocket: Technologies
+This project was made using the follow technologies:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* [Typescript](https://www.typescriptlang.org/)      
+* [React](https://reactjs.org/)      
+* [Styled Components](https://styled-components.com/)
+* [MirageJS](https://miragejs.com/)
 
-### `yarn build`
+# :computer: How to run
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+# Install Dependencies
+$ yarn
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Run Aplication
+$ yarn start
+```
+Go to http://localhost:3000/ to see the result.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# :bug: Issues
 
-### `yarn eject`
+Create a <a href="https://github.com/LeonneBrito/dt.money/issues">new issue report</a>, it will be an honor to be able to help you solve and further improve our application.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# :sparkles: Contributing
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Fork this repository;
+- Create a branch with your feature: `git checkout -b my-feature`;
+- Commit your changes: `git commit -m 'feat: My new feature'`;
+- Push to your branch: `git push origin my-feature`.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# :page_facing_up: License
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+This project by [Sergio Rosa](https://www.linkedin.com/in/sergiorosa1/). 
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Thank you! 
