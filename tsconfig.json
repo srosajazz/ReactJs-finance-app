@@ -1,26 +1,18 @@
+
+//https://stackoverflow.com/questions/37548734/tsc-throws-ts2307-cannot-find-module-for-a-local-file
+
 {
   "compilerOptions": {
-    "target": "es5",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
-    "allowJs": true,
-    "skipLibCheck": true,
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "noFallthroughCasesInSwitch": true,
-    "module": "esnext",
+    "target": "es6",
+    "module": "commonjs",
     "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "noEmit": true,
-    "jsx": "react-jsx"
+    "outDir": "dist",
+    "sourceMap": false,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
   },
-  "include": [
-    "src"
-  ]
+  "include": ["src/**/*.ts", "tests/**/*.ts"],
+  "exclude": ["node_modules", ".vscode"]
 }

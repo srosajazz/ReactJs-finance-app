@@ -1,10 +1,16 @@
-import styled from 'styled-components';
 
+import logoImg  from '../../assets/logo.svg';
+import {Container, Content} from './styles';
 
-export function App(){
+export function Header(){
   return(
-    <div className="App">
-      <h1 className="App">Hello</h1>
-    </div>
-  )
+    <Container>
+      <Content>
+      <img src={logoImg} alt="Finance App" />
+      <button>
+        New Transactions
+      </button>
+      </Content>
+    </Container>
+  );
 }
