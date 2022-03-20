@@ -25,20 +25,20 @@
 </div>
 
 # Technologies
-## It's a financial control app based on the same idea as devfinances, but with more advanced technologies, open source libraries, and resources. Transactions can be registered, deleted, and incoming and outgoing transactions can be seen
+> It's a financial control app based on the same idea as devfinances, but with more advanced technologies, open source libraries, and resources. Transactions can be registered, deleted, and incoming and outgoing transactions can be seen
 
 This project is being developed with the following technologies:
 
--ReactJS
--TypeScript
--useState
--useEfect
--Context API
--Styled Components
--Mirage JS
--axios
--React Modal
--polished
+- ReactJS
+- TypeScript
+- useState
+- useEfect
+- Context API
+- Styled Components
+- Mirage JS
+- axios
+- React Modal
+- polished
 
 This project by [Sergio Rosa](https://www.linkedin.com/in/sergiorosa1/). 
 
