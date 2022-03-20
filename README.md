@@ -3,13 +3,13 @@
 </p>
 
 
-<p align="center">
+<h3 align="center">
    Finance App.
-</p>
+</h3>
 
 <div align="center">
   <sub> 
-    <a href="https://github.com/srosajazz">Sergio Rosa.
+    <a href="https://www.linkedin.com/in/sergiorosa1/">Sergio Rosa.
   </sub>
 </div>
 
