@@ -30,37 +30,21 @@
    <img src="./.github/screen4.png" width="400px">
 </div>
 
-# :rocket: Technologies
-This project was made using the follow technologies:
+# Technologies
+## It's a financial control app based on the same idea as devfinances, but with more advanced technologies, open source libraries, and resources. Transactions can be registered, deleted, and incoming and outgoing transactions can be seen
 
-* [Typescript](https://www.typescriptlang.org/)      
-* [React](https://reactjs.org/)      
-* [Styled Components](https://styled-components.com/)
-* [MirageJS](https://miragejs.com/)
+This project is being developed with the following technologies:
 
-# :computer: How to run
-
-```bash
-# Install Dependencies
-$ yarn
-
-# Run Aplication
-$ yarn start
-```
-Go to http://localhost:3000/ to see the result.
-
-# :bug: Issues
-
-Create a <a href="https://github.com/LeonneBrito/dt.money/issues">new issue report</a>, it will be an honor to be able to help you solve and further improve our application.
-
-# :sparkles: Contributing
-
-- Fork this repository;
-- Create a branch with your feature: `git checkout -b my-feature`;
-- Commit your changes: `git commit -m 'feat: My new feature'`;
-- Push to your branch: `git push origin my-feature`.
-
-# :page_facing_up: License
+-ReactJS
+-TypeScript
+-useState
+-useEfect
+-Context API
+-Styled Components
+-Mirage JS
+-axios
+-React Modal
+-polished
 
 This project by [Sergio Rosa](https://www.linkedin.com/in/sergiorosa1/). 
 
