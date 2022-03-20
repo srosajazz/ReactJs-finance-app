@@ -1,15 +1,11 @@
-<p align="center">
-   <img src="./.github/logo.svg" alt="Move It" width="300"/>
-</p>
-
-
 <h3 align="center">
    Finance App.
 </h3>
 
 <div align="center">
   <sub> 
-    <a href="https://www.linkedin.com/in/sergiorosa1/">Sergio Rosa.
+    <a href="https://www.linkedin.com/in/sergiorosa1/">
+    <h2>Sergio Rosa.</h2>
   </sub>
 </div>
 
