@@ -46,20 +46,30 @@ export const Container = styled.form`
 
 
 export const TransactionTypeContainer = styled.div`
-  /* margin: 1rem 0;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0.5rem; */
   margin: 1rem 0;
   display: grid; 
   grid-template-columns: 1fr 1fr;
   gap: 0.5rem;
+`;
 
-  button {
-    height:4rem;
-    border: 1px solid #d7d7d7;
-    border-radius: 0.25rem;
-    background: transparent;
+interface RadioBoxProps {
+  isActive: boolean;
+  variant: 'income' | 'withdraw';
+}
+
+const variantColors = {
+  income: '#33CC95',
+  withdraw: '#E52E4D',
+}
+
+
+export const RadioBox = styled.button<RadioBoxProps>`
+  height:4rem;
+  border: 1px solid #d7d7d7;
+  border-radius: 0.25rem;
+  
+  background: ${(props)=> props.isActive ? '#eee': 'transparent'} ;
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -83,16 +93,21 @@ export const TransactionTypeContainer = styled.div`
 
 
     }
-
-  }
 `;
 
-// interface RadioBoxProps {
-//   isActive: boolean;
-//   variant: 'income' | 'withdraw';
-// }
 
-// const variantColors = {
-//   income: '#33CC95',
-//   withdraw: '#E52E4D',
-// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
