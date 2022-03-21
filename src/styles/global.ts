@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components'
+import styled, { createGlobalStyle } from 'styled-components'
 
 export const GlobalStyle = createGlobalStyle`
   :root {
@@ -78,4 +78,5 @@ export const GlobalStyle = createGlobalStyle`
       filter: brightness(0.8);
     }
   }
-`
+`;
+

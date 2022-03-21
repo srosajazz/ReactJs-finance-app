@@ -5,6 +5,7 @@
   "dependencies": {
     "axios": "^0.26.1",
     "miragejs": "^0.1.43",
+    "polished": "^4.1.4",
     "react-modal": "^3.14.4",
     "styled-components": "^5.3.3",
     "web-vitals": "^2.1.0"
