@@ -35,3 +35,4 @@ This project is being developed with the following technologies:
 This project by [Sergio Rosa](https://www.linkedin.com/in/sergiorosa1/). 
 
 Thank you! 
+
