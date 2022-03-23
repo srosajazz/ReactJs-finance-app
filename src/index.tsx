@@ -8,26 +8,37 @@ import {App} from './App';
 // https://miragejs.com/
 createServer({
   models: {
-    transactions: Model,
+    transaction: Model,
   },
 
+  seeds(server) {
+    server.db.loadData({
+      transactions: [
+        {
+          id: 1,
+          title: 'Freelance de website',
+          type: 'deposit',
+          category: 'Dev',
+          amount: 6000,
+          createdAt: new Date('2021-02-12 09:00:00'),
+        },
+        {
+          id: 2,
+          title: 'Rent',
+          type: 'withdraw',
+          category: 'Apt',
+          amount: 1100,
+          createdAt: new Date('2021-02-14 11:00:00'),
+        },
+      ],
+    });
+  },
 
   routes(){
     this.namespace = 'api';
 
     this.get('/transactions', () =>{
       return this.schema.all('transaction')
-      
-      // [
-      //   {
-      //     id: 1,
-      //     title: 'Transactions',
-      //     amount: 500,
-      //     type: 'deposit',
-      //     category: 'Food',
-      //     createdAt: new Date()
-      //   }
-      // ]
     })
 
     this.post('/transactions', (schema, request) =>{
@@ -43,5 +54,17 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 );
+
+
+  // [
+      //   {
+      //     id: 1,
+      //     title: 'Transactions',
+      //     amount: 500,
+      //     type: 'deposit',
+      //     category: 'Food',
+      //     createdAt: new Date()
+      //   }
+      // ]
 
 
