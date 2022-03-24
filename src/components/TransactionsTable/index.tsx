@@ -39,10 +39,9 @@ const [transactions, setTransactions] = useState<Transaction[]>([]);
               <tr key={transaction.id}>
                 <td>{transaction.title}</td>
                 <td className={transaction.type}>
-                  {new Intl.NumberFormat('us-US', {
-                    style: 'currency',
-                    currency: 'USA',
-                  }).format(transaction.amount)}
+                  {
+                  new Intl.NumberFormat('en-US', {
+                    style: 'currency', currency: 'USD', currencyDisplay: 'narrowSymbol'}).format(transaction.amount)}
                 </td>
                 <td>{transaction.category}</td>
                 <td>
@@ -58,3 +57,6 @@ const [transactions, setTransactions] = useState<Transaction[]>([]);
     </Container>
   )
 }
+
+
+// new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', currencyDisplay: 'narrowSymbol'}).format(amount));
