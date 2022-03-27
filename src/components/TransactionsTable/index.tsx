@@ -1,31 +1,9 @@
-import { useContext, useEffect, useState } from 'react';
+import { useContext } from 'react';
 import {Container} from './styles';
-import { api } from '../../services/api';
 import { TransactionsContext } from '../../TransactionsContext';
 
-
-interface Transaction{
-  id : number;
-  title : string;
-  amount : number;
-  type : string;
-  category : string;
-  createdAt : string;
-}
-
-
 export function TransactionsTable(){
-  const data = useContext(TransactionsContext);
-const [transactions, setTransactions] = useState<Transaction[]>([]);
-
-console.log(data);
-
-
-  useEffect(() => {
-    api.get('transactions/')
-    .then(response => setTransactions(response.data.transactions));
-  },[]);
-  
+  const transactions = useContext(TransactionsContext);
   return(
     <Container>
       <table>
@@ -46,7 +24,9 @@ console.log(data);
                 <td className={transaction.type}>
                   {
                   new Intl.NumberFormat('en-US', {
-                    style: 'currency', currency: 'USD', currencyDisplay: 'narrowSymbol'}).format(transaction.amount)}
+                    style: 'currency',
+                    currency: 'USD', 
+                    currencyDisplay: 'narrowSymbol'}).format(transaction.amount)}
                 </td>
                 <td>{transaction.category}</td>
                 <td>
@@ -62,6 +42,3 @@ console.log(data);
     </Container>
   )
 }
-
-
-// new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', currencyDisplay: 'narrowSymbol'}).format(amount));
